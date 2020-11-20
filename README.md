@@ -1,22 +1,18 @@
 <h1 align="center">
-  <h1 align="center">
-    <img style="background-color: #312e38; border-radius: 10px;" alt="linkAPI-logo" src="https://media.glassdoor.com/sqll/2469862/linkapi-squarelogo-1552545271182.png" />
-  </h1>
-
-LinkAPI Technical
-
-  <p align="center">
-    <a href="https://nodejs.org/en/">
-      <img src="https://img.shields.io/badge/-NodeJS-006400?style=flat&logo=Node.js&logoColor=#339933" />
-    </a>
-    <a href="https://www.typescriptlang.org/">
-      <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=TypeScript&logoColor=#007ACC" />
-    </a>
-    <a href="https://www.mongodb.com/">
-      <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=MongoDB&logoColor=006400" />
-    </a>
-  </p>
+  <img style="background-color: #312e38; border-radius: 10px;" alt="linkAPI-logo" src="https://media.glassdoor.com/sqll/2469862/linkapi-squarelogo-1552545271182.png" />
 </h1>
+
+<p align="center">
+  <a href="https://nodejs.org/en/">
+    <img src="https://img.shields.io/badge/-NodeJS-006400?style=flat&logo=Node.js&logoColor=#339933" />
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=TypeScript&logoColor=#007ACC" />
+  </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=MongoDB&logoColor=006400" />
+  </a>
+</p>
 
 ## 🔖 Sobre o desafio
 
@@ -53,6 +49,7 @@ O desafio proposto foi desenvolver uma API RESTful usando a tecnologia NodeJS.
 
   # Instalando todas as depêndencias necessárias
   $ yarn
+  
   # Criando cluster no banco de dados mongoDB usando o docker
   $ docker run --name linkapi -p 27017:27017 -d -t mongo
 
